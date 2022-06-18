@@ -1,0 +1,95 @@
+body {
+    margin: 0;
+    overflow-x: hidden;
+}
+
+.info-img-first {
+    width: auto;
+    height: 90vh;
+    background-position: center;
+    position: relative;
+    text-align: center;
+    background-image: url(../images/main\ background\ for\ small\ screen.jpg);
+    background-size: cover;
+    display: flex;
+    padding: 0;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    background-attachment: fixed;
+}
+
+@media (min-width: 600px) {
+    .info-img-first {
+        background-size: cover;
+        background-image: url(../images/medium\ screen\ main\ background.jpg);
+    }
+}
+
+@media (min-width: 1200px) {
+    .info-img-first {
+        background-size: cover;
+        background-image: url(../images/main\ background\ for\ large\ screen.jpg);
+    }
+}
+
+h1 {
+    display: block;
+    align-content: center;
+    text-align: center;
+    font-weight: 900;
+    font-size: 6vw;
+    color: cornsilk;
+    background-color: #a3929228;
+
+    letter-spacing: 2px;
+    -webkit-box-shadow: -1px 2px 32px 2px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: -1px 2px 32px 2px rgba(0, 0, 0, 0.75);
+    box-shadow: -1px 2px 32px 2px rgba(0, 0, 0, 0.75);
+    position: absolute;
+    top: 35%;
+}
+
+h3 {
+    display: block;
+    align-content: center;
+    text-align: center;
+    font-weight: 400;
+    font-size: 4vw;
+    color: cornsilk;
+    background-color: #31303000;
+    margin: 50px;
+    position: absolute;
+}
+
+.fondo-navbar {
+    background-color: #f0ce95;
+}
+
+.separador-main-productos {
+    background: rgb(214, 162, 92);
+    background: linear-gradient(180deg, rgba(214, 161, 92, 0.718) 47%, rgba(240, 206, 149, 1) 100%);
+    height: 10vh;
+}
+
+#sectionPreguntas {
+    background-color: #f0ce95;
+}
+
+#sectionProductos {
+    background-color: #f0ce95;
+}
+
+#sectionValores {
+        background-image: url(../images/background-nuestros-valores2.png);
+    background-size: cover;
+}
+
+#sectionForm {
+    background-size: cover;
+    background-image: url(../images/hola.jpg);
+    min-height: 35vh;
+    background-attachment: fixed;
+}

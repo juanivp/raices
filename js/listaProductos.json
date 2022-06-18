@@ -1,0 +1,17 @@
+[
+        {"nombre": "Mermelada de Pera y Jengibre", "precio":300, "peso":360, "envase": "Frasco Vidrio", "id":1},
+
+        {"nombre": "Mermelada de Manzana y Canela", "precio":300, "peso":360, "envase": "Frasco Vidrio", "id":2},
+
+        {"nombre": "Mermelada de Arandanos", "precio":300, "peso":360, "envase": "Frasco Vidrio", "id":3},
+
+        {"nombre": "Mermelada de Frambuesa", "precio":300, "peso":360, "envase": "Frasco Vidrio", "id":4},
+
+        {"nombre": "Mermelada de Tomate con Cardamomo", "precio":300, "peso":360, "envase": "Frasco Vidrio", "id":5},
+
+        {"nombre": "Granola 1000", "precio":900, "peso":1000, "envase": "Bolsa Zipper", "id":6},
+
+        {"nombre": "Granola 500", "precio":500, "peso":500, "envase": "Bolsa Zipper", "id":7},
+
+        {"nombre": "Almendras Caramelizadas", "precio":350, "peso":100, "envase": "Bolsa Zipper", "id":8}
+]
